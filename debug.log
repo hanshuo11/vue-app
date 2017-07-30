@@ -1,0 +1,20 @@
+[0412/231631.696:ERROR:process_reader_win.cc(142)] SuspendThread: 拒绝访问。 (0x5)
+[0412/231633.214:ERROR:process_reader_win.cc(114)] NtOpenThread: 指定无效的客户端 ID。  (0xc000000b)
+[0412/231633.215:ERROR:process_reader_win.cc(114)] NtOpenThread: 指定无效的客户端 ID。  (0xc000000b)
+[0412/231633.215:ERROR:process_reader_win.cc(114)] NtOpenThread: 指定无效的客户端 ID。  (0xc000000b)
+[0412/231633.215:ERROR:process_reader_win.cc(114)] NtOpenThread: 指定无效的客户端 ID。  (0xc000000b)
+[0412/231633.215:ERROR:process_reader_win.cc(114)] NtOpenThread: 指定无效的客户端 ID。  (0xc000000b)
+[0412/231633.216:ERROR:process_reader_win.cc(114)] NtOpenThread: 指定无效的客户端 ID。  (0xc000000b)
+[0412/231633.216:ERROR:process_reader_win.cc(114)] NtOpenThread: 指定无效的客户端 ID。  (0xc000000b)
+[0412/231633.216:ERROR:process_reader_win.cc(233)] ReadMemory at 0x1050efdfe0 of 16 bytes failed: 仅完成部分的 ReadProcessMemory 或 WriteProcessMemory 请求。 (0x12B)
+[0412/231633.216:ERROR:exception_snapshot_win.cc(180)] EXCEPTION_POINTERS read failed
+[0412/231633.216:WARNING:crash_report_exception_handler.cc(60)] ProcessSnapshotWin::Initialize failed
+[0412/231633.216:ERROR:scoped_process_suspend.cc(38)] NtResumeProcess: 已尝试访问正在退出的过程。  (0xc000010a)
+[0422/182359:ERROR:tcp_listen_socket.cc(76)] Could not bind socket to 127.0.0.1:6004
+[0422/182359:ERROR:node_debugger.cc(86)] Cannot start debugger server
+[0422/193920:ERROR:tcp_listen_socket.cc(76)] Could not bind socket to 127.0.0.1:6004
+[0422/193920:ERROR:node_debugger.cc(86)] Cannot start debugger server
+[0422/194004:ERROR:tcp_listen_socket.cc(76)] Could not bind socket to 127.0.0.1:6004
+[0422/194004:ERROR:node_debugger.cc(86)] Cannot start debugger server
+[0423/104155:ERROR:tcp_listen_socket.cc(76)] Could not bind socket to 127.0.0.1:6004
+[0423/104155:ERROR:node_debugger.cc(86)] Cannot start debugger server
