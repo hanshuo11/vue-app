@@ -1,7 +1,5 @@
-anguage: node_js
+language: node_js
 node_js:
-  - "8.1.4"
-branches:
-  only:
-  - master
-# script: make test
+  - "6"
+install: npm install
+script: npm test
