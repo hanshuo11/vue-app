@@ -1,0 +1,7 @@
+anguage: node_js
+node_js:
+  - "8.1.4"
+branches:
+  only:
+  - master
+script: make test
