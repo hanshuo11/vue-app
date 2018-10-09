@@ -2,7 +2,7 @@
 
 > A Vue.js project
 
-[![Build Status](https://travis-ci.org/michaelliao/openweixin.svg?branch=master)](https://travis-ci.org/hanshuo11 / vue-app-)
+[![Build Status](https://travis-ci.org/hanshuo11/vue-app-.svg?branch=master)](https://travis-ci.org/hanshuo11/vue-app-)
 
 
 ## Build Setup
