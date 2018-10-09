@@ -4,4 +4,4 @@ node_js:
 branches:
   only:
   - master
-script: make test
+# script: make test
