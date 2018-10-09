@@ -25,7 +25,7 @@
         <div id="news_classes">
           <ul>
             <li :class="{ 'click_class': class_name.folg}" class="class" v-for="(class_name,index) in classes_name"
-                @click="choose_class(index)">
+                @click="choose_class(index)" v-bind:key="index">
               {{class_name.name}}
             </li>
           </ul>
@@ -40,7 +40,7 @@
     </div>
     <div class="article">
       <ul class="articles">
-        <li v-for="(article,index) in news_arr">
+        <li v-for="(article,index) in news_arr" v-bind:key="index">
           <router-link to="article" class="a_touch" @click.native="openNews(article.id,index)">
             <img class="articls_imgs" :src="article.imgurl"> {{article.title}}
           </router-link>
